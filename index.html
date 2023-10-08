@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_Form</title>
+    <link  href="./index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head"> Sahalsoftware Survey Form</h1>
+        <h2 id="subheading">Thank you for taking the time to help us 
+            improve the platform</h2>
+    </div>
+    <form>
+        <div id="content1">
+            <label for="">Name</label> <br>
+            <input type="text" name="name" placeholder="Enter your name" class="box"><br><br>
+
+            <label for="">Email</label> <br>
+            <input type="text" name="email"  placeholder="Enter your email" class="box"><br><br>
+
+            <label for="">Phone number </label> <br>
+            <input type="text" name="age"  placeholder="Enter your Phone number" class="box"><br><br>
+            <label>Which option best describes your current role?</label>
+            <br><br>
+            <div id="option1">
+                <select>
+                    <option name="Select Your Role">Select Your Role</option>
+                    <option value="Student">Student</option>
+                    <option value="Employee">Employee</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Other">Other</option>     
+                </select>
+            </div>
+        </div>
+        <div>
+            <br><br>
+        <label id="head1">Would you recommend Sahalsoftware to your  friends?</label> <br>
+        <input type="radio" name="radio"  class="large">Definitely<br><br>
+        <input type="radio" name="radio"  class="large">Maybe<br><br>
+        <input type="radio" name="radio"  class="large">Not Sure<br><br>
+        </div>
+        <label>What is your favorite feature of Sahalsoftware ?</label><br><br>
+        <div id="option2">
+                <select>
+                    
+                    <option name="Select an option">Select an option</option>
+                    <option value="Challenges">Method of teaching</option>
+                    <option value="Community"> Support </option>
+                    <option value="Projects">Projects</option>   
+                </select>
+            </div>
+            <br><br>
+        <label id="head2">What would you like to see improved? (Check all that apply)</label>
+        <div id="content2">
+        <input type="checkbox"  name="checkbox" class="large"><label>Front-end  </label> <br><br>
+        <input type="checkbox"  name="checkbox" class="large"><label>Back-end </label> <br><br>
+        <input type="checkbox"  name="checkbox" class="large"><label>Full Stack Developer </label><br><br>
+        <input type="checkbox"  name="checkbox" class="large"><label>Other</label> <br><br>
+        </div>
+        <label id="head2"> Any comments or suggestion?</label> <br><br>
+        <textarea  placeholder="Enter Your Comment Here..."></textarea><br><br>
+        <button><h3>Submit</h3></button>
+        
+
+    </form>
+    <!--5.Footer section-->
+<footer id="main-footer">
+    <div class ="container">
+        <p id="creator">&copy; copyright 2023 -all right reserved By Warda Hoodo</p>
+    </div>
+</footer>
+</body>
+</html>
+    
+    
+

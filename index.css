@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url('./backgroundimage.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0, 0, 0.8);
+    opacity:0.9;
+    font-family:'poppins' , sans-serif;
+ 
+}
+.heading{
+    text-align :center;
+    width:100%;
+    margin: auto;
+    margin-top :100px;
+    }
+#head{
+    font-size :1.8em;
+    color:white;
+    }
+    
+#subheading{
+    font-size: 1em;
+    margin-top:10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color:white;
+    font-style: italic;
+    }
+#content1{
+    width:90;
+    margin :auto;
+    align-items: right;
+    color: white;
+    
+}
+form{
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items : center;
+    color: white;
+    justify-content :center;
+    width: 50%;
+    border-radius:5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+form .box{
+    width:100%;
+    height: 3em;
+ 
+    bottom:20px;
+    border: 0;
+    border-radius :5px;
+
+}
+#option1 select{
+    width: 98.5%;
+    height: 2.7em;
+    border: 0;
+    border-radius :5px;
+    bottom: 20px;
+    }
+#head1{
+    width: 98.5%;
+    height: 2.7em;
+    border: 0;
+    border-radius :5px;
+    bottom: 20px;
+    margin: 0 auto;
+}
+#option2 select{
+    width: 98.5%;
+    height: 2.7em;
+    border: 0;
+    border-radius :5px;
+    bottom: 20px;
+    }
+#head2{
+    width: 98.5%;
+    height: 2.7em;
+    border: 0;
+    border-radius :5px;
+    bottom: 20px;
+    margin: 0 auto;
+}
+#content2{
+    margin-top: 10px;
+    
+}
+textarea{
+    width : 100%;
+    height: 90px;
+  
+    bottom: 17px;
+}
+button{
+    width:100%;
+    height:3em;
+margin-bottom: 20px;
+    top: 11px;
+    background-color:rgb(18,219,78);
+} 
+
+#main-footer{
+    text-align:end;
+    color:black;
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+/*input::placeholder{
+    font-size :1.1em;
+    left: 10px;
+    width :50px;
+    font-weight: 500;
+    
+}*/
+
+#creator{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+input.large{
+    width: 15px;
+    height: 15px;
+    color: skyblue;
+    margin-right: 10px;
+}
+@media screen and (max-width:600px){
+    form{
+    width:100%;
+    margin: auto;
+    }
+}
+    
+
+    
+    
